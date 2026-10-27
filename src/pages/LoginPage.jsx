@@ -4,8 +4,8 @@ import { EyeIcon, EyeOffIcon } from '../components/Icons.jsx';
 import { Brand } from '../components/Logo.jsx';
 
 const DEMO_ACCOUNTS = [
-  { email: 'admin@example.com', password: 'admin123', who: 'Admin (Amira Hassan)', what: 'admin@example.com / admin123 · sees the whole team' },
-  { email: 'employee@example.com', password: 'employee123', who: 'Employee (Priya Raman)', what: 'employee@example.com / employee123 · own tasks only' },
+  { email: 'admin@aulten.com', password: 'admin123', who: 'Admin', what: 'admin@aulten.com / admin123 · sees the whole team' },
+  { email: 'employee@aulten.com', password: 'employee123', who: 'Employee', what: 'employee@aulten.com / employee123 · own tasks only' },
 ];
 
 export function LoginPage() {
@@ -41,7 +41,7 @@ export function LoginPage() {
         <form onSubmit={handleSubmit} noValidate>
           <label className="field field-block">
             <span className="field-label">Work email</span>
-            <input type="email" autoComplete="username" required value={email} onChange={(e) => setEmail(e.target.value)} placeholder="you@example.com" />
+            <input type="email" autoComplete="username" required value={email} onChange={(e) => setEmail(e.target.value)} placeholder="you@aulten.com" />
           </label>
           <label className="field field-block">
             <span className="field-label">Password</span>
