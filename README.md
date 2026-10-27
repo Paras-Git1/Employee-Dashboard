@@ -1,12 +1,12 @@
 # Employee Task Dashboard (frontend)
 
-React + Vite dashboard for the Employee Task Dashboard. The backend lives in
-[Employee-Dashboard-Backend](https://github.com/Paras-Git1/Employee-Dashboard-Backend).
+React + Vite frontend for the Employee Task Dashboard.
 
 ```bash
-cp .env.example .env   # point VITE_API_URL / VITE_AUTH_URL at the backend
 npm install
-npm run dev            # http://localhost:5173
+npm run dev
 npm test
-npm run build          # output in dist/
+npm run build
 ```
+
+Configuration is read from `VITE_*` environment variables; see `.env.example`.
