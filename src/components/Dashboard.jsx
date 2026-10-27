@@ -10,7 +10,6 @@ import { ErrorBanner } from './ErrorBanner.jsx';
 import { FilterBar } from './FilterBar.jsx';
 import { CheckIcon, CloseIcon, MenuIcon, PlusIcon, RefreshIcon, SearchIcon } from './Icons.jsx';
 import { NeedsAttention } from './NeedsAttention.jsx';
-import { PriorityGuide } from './PriorityGuide.jsx';
 import { Sidebar } from './Sidebar.jsx';
 import { StatCards } from './StatCards.jsx';
 import { TaskDetail } from './TaskDetail.jsx';
@@ -235,7 +234,6 @@ export function Dashboard() {
 
           <aside className="rail">
             <NeedsAttention tasks={tasks} showAssignee={isManager} onOpen={(t) => setOpenKey(t.taskKey)} />
-            <PriorityGuide />
           </aside>
         </div>
       </main>
