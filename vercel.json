@@ -4,10 +4,10 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "rewrites": [
-    { "source": "/api/:path*", "destination": "https://BACKEND_DOMAIN/api/:path*" },
-    { "source": "/auth/:path*", "destination": "https://BACKEND_DOMAIN/auth/:path*" },
-    { "source": "/crm/tasks/:id", "destination": "https://BACKEND_DOMAIN/crm/tasks/:id" },
-    { "source": "/helpdesk/tickets/:id", "destination": "https://BACKEND_DOMAIN/helpdesk/tickets/:id" }
+    { "source": "/api/:path*", "destination": "https://13-235-145-68.sslip.io/api/:path*" },
+    { "source": "/auth/:path*", "destination": "https://13-235-145-68.sslip.io/auth/:path*" },
+    { "source": "/crm/tasks/:id", "destination": "https://13-235-145-68.sslip.io/crm/tasks/:id" },
+    { "source": "/helpdesk/tickets/:id", "destination": "https://13-235-145-68.sslip.io/helpdesk/tickets/:id" }
   ],
   "headers": [
     {
